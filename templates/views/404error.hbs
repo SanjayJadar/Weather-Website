@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body> 
+    {{>navbar}}
+    <!-- Main Header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- Right side div  -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                         <figure class="errimg">
+                            <img src="https://www.seekpng.com/png/detail/212-2123432_404-error-error-404-in-png.png" alt="Image" class="img-fluid" title="Image">
+                         </figure>
+           
+                        <p>Welcome to Wrong side of Page</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer --> 
+    {{>footer}}
+</body>
+</html>
